@@ -70,8 +70,8 @@ public class TicTacToe implements ActionListener {
 		frame.add(buttonsPanel);
 		frame.add(commandsPanel,BorderLayout.SOUTH);
 		
-		// Creates a new button and adjusts it's features, and allows for action upon being pressed
-		newGameButton = new JButton("New Game");
+	// Creates a new button and adjusts it's features, and allows for action upon being pressed
+	newGameButton = new JButton("New Game");
         newGameButton.setBounds(10, 80, 80, 25);
         newGameButton.addActionListener(this);
         // Adds the new game button onto the command panel
