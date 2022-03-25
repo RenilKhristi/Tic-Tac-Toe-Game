@@ -41,7 +41,7 @@ public class Player1Choice implements ActionListener{
 		
 		player1Choice = new JLabel("Player 1 Choose Your Symbol:");
 		
-		//Sets label dimensions & adds it to the panel
+	//Sets label dimensions & adds it to the panel
         player1Choice.setBounds(10,10,200,25);
         playerPanel.add(player1Choice);
      
