@@ -12,9 +12,9 @@ import java.sql.SQLException;
 
 public class Login implements ActionListener{
 	
-	// Creates instance variables
-	private static JFrame loginFrame;
-	private static JPanel loginPanel;
+    // Creates instance variables
+    private static JFrame loginFrame;
+    private static JPanel loginPanel;
     private static JLabel usernameLabel;
     private static JLabel passwordLabel;
     private static JTextField usernameTextField;
